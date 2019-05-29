@@ -20,6 +20,12 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
     "prettier": "^1.17.1",
     "typescript": "^3.4.5"
   },
@@ -32,8 +38,10 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-		"serve": "gatsby serve",
+    "serve": "gatsby serve",
 		"type-check": "tsc",
+		"lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
+		"lint:fix": "yarn lint --fix",	
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
