@@ -8,8 +8,8 @@ const AboutPage = () => (
   <Layout>
     <SEO title="Page two" />
     <h1>About Page</h1>
-    <p>Welcome to about page</p>
-    <Link to="/">Go back to the home</Link>
+    <p>Lultech builds chatbots for small businesses</p>
+    <Link to="/">Home</Link>
   </Layout>
 )
 
