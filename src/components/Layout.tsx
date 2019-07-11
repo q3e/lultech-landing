@@ -36,15 +36,19 @@ const Layout = ({ children }: Props) => {
 		<div className="leading-normal tracking-normal text-white gradient">
 			{children}
 			<Navbar />
-			<div className="pt-24">
+			<div className="pt-24" style={{height: '100vh'}}>
 				<div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 					<div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
 						<p className="uppercase tracking-loose w-full">Optimize Your Business</p>
 						<h1 className="my-4 text-5xl font-bold leading-tight">{siteMetadata.title}</h1>
 						<p className="leading-normal text-2xl mb-8">{siteMetadata.description}</p>
-						<form action={siteMetadata.github}>
-							<button type="submit" className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Get Sources</button>
-						</form>
+						<a href="#features">
+							<button
+								type="submit"
+								className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+								See the Arsenal
+							</button>
+						</a>
 					</div>
 					<div className="w-full md:w-3/5 py-6 text-center">
 						<img className="w-full md:w-4/5 z-50" src={heroImg} />
@@ -87,52 +91,52 @@ const Layout = ({ children }: Props) => {
 							</a>
 						</div>
 
-											<div className="flex-1">
-												<p className="uppercase text-gray-500 md:mb-6">Links</p>
-												<ul className="list-reset mb-6">
-													<li className="mt-2 inline-block mr-2 md:block md:mr-0">
-														<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Support</a>
-													</li>
-												</ul>
-										</div>
-										<div className="flex-1">
-											<p className="uppercase text-gray-500 md:mb-6">Legal</p>
-											<ul className="list-reset mb-6">
-													<li className="mt-2 inline-block mr-2 md:block md:mr-0">
-														<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Terms</a>
-													</li>
-													<li className="mt-2 inline-block mr-2 md:block md:mr-0">
-														<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Privacy</a>
-													</li>
-											</ul>
-										</div>
-										{/* <div className="flex-1">
-												<p className="uppercase text-gray-500 md:mb-6">Social</p>
-												<ul className="list-reset mb-6">
-													<li className="mt-2 inline-block mr-2 md:block md:mr-0">
-														<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Facebook</a>
-													</li>
-													<li className="mt-2 inline-block mr-2 md:block md:mr-0">
-														<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Linkedin</a>
-													</li>
-													<li className="mt-2 inline-block mr-2 md:block md:mr-0">
-														<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Twitter</a>
-													</li>
-												</ul>
-										</div> */}
 									<div className="flex-1">
-										<p className="uppercase text-gray-500 md:mb-6">Company</p>
+										<p className="uppercase text-gray-500 md:mb-6">Links</p>
 										<ul className="list-reset mb-6">
 											<li className="mt-2 inline-block mr-2 md:block md:mr-0">
-												<a href="/about" className="no-underline hover:underline text-gray-800 hover:text-orange-500">About Us</a>
-											</li>
-											<li className="mt-2 inline-block mr-2 md:block md:mr-0">
-												<a href="contact" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
+												<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Support</a>
 											</li>
 										</ul>
-									</div>
 								</div>
+								<div className="flex-1">
+									<p className="uppercase text-gray-500 md:mb-6">Legal</p>
+									<ul className="list-reset mb-6">
+											<li className="mt-2 inline-block mr-2 md:block md:mr-0">
+												<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Terms</a>
+											</li>
+											<li className="mt-2 inline-block mr-2 md:block md:mr-0">
+												<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Privacy</a>
+											</li>
+									</ul>
+								</div>
+								{/* <div className="flex-1">
+										<p className="uppercase text-gray-500 md:mb-6">Social</p>
+										<ul className="list-reset mb-6">
+											<li className="mt-2 inline-block mr-2 md:block md:mr-0">
+												<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Facebook</a>
+											</li>
+											<li className="mt-2 inline-block mr-2 md:block md:mr-0">
+												<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Linkedin</a>
+											</li>
+											<li className="mt-2 inline-block mr-2 md:block md:mr-0">
+												<a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Twitter</a>
+											</li>
+										</ul>
+								</div> */}
+							<div className="flex-1">
+								<p className="uppercase text-gray-500 md:mb-6">Company</p>
+								<ul className="list-reset mb-6">
+									<li className="mt-2 inline-block mr-2 md:block md:mr-0">
+										<a href="/about" className="no-underline hover:underline text-gray-800 hover:text-orange-500">About Us</a>
+									</li>
+									<li className="mt-2 inline-block mr-2 md:block md:mr-0">
+										<a href="contact" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
+									</li>
+								</ul>
+							</div>
 						</div>
+				</div>
 			</footer>
 		</div>
 	)
