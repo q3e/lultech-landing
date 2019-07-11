@@ -36,7 +36,7 @@ const Layout = ({ children }: Props) => {
 		<div className="leading-normal tracking-normal text-white gradient">
 			{children}
 			<Navbar />
-			<div className="pt-24" style={{height: '100vh'}}>
+			<div className="pt-24" style={{height: '90vh'}}>
 				<div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 					<div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
 						<p className="uppercase tracking-loose w-full">Optimize Your Business</p>
@@ -74,7 +74,7 @@ const Layout = ({ children }: Props) => {
 						<div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
 					</div>
 						<h3 className="my-4 text-3xl leading-tight">Come, let us help you restructure your online strategy.</h3>
-						<h4>Start with fixing the above spelling :)</h4>
+						<small>Start with fixing the above spelling :)</small> <br />
 
 						<button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Help me!</button>
 					</section>
