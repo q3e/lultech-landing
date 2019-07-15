@@ -34,7 +34,7 @@ const PricingSection = () => {
 						</ul>
 					</div>
 					<div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-						<div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">{pricing[0].price}<span className="text-base">per mo.</span></div>
+						<div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">{pricing[0].price}<span className="text-base"> per mo.</span></div>
 						<div className="flex items-center justify-center">
 							<button className="mx-auto lg:mx-0 hover:underline font-bold rounded-full my-6 py-4 px-8 shadow-lg">Sign Up</button>
 						</div>
@@ -51,7 +51,7 @@ const PricingSection = () => {
 						</ul>					
 					</div>
 					<div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-						<div className="w-full pt-6 text-4xl font-bold text-center">{pricing[1].price}</div>
+						<div className="w-full pt-6 text-4xl font-bold text-center">{pricing[1].price}<span className="text-base"> per mo.</span></div>
 						<div className="flex items-center justify-center">
 							<button className="mx-auto lg:mx-0 hover:underline font-bold rounded-full my-6 py-4 px-8 shadow-lg">Sign Up</button>
 						</div>
@@ -67,7 +67,7 @@ const PricingSection = () => {
 						</ul>
 					</div>
 					<div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-						<div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">{pricing[2].price}</div>
+						<div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">{pricing[2].price}<span className="text-base"> per mo.</span></div>
 						<div className="flex items-center justify-center">
 							<button className="mx-auto lg:mx-0 hover:underline font-bold rounded-full my-6 py-4 px-8 shadow-lg">Sign Up</button>
 						</div>
