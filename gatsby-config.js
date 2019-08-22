@@ -1,20 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: `Lultech`,
-    description: `We help turn clunky old websites into an optimized, well-oiled, money making machine for small businesses.`,
+    description: `We build and Secure Web Apps.`,
 		author: `@lultech`,
 		features: [
 			{
-				title: `Blazing-fast wesbites`,
-				description: `Increase customer retention by reducing the time it takes them to access information in your website`,
+				title: `Build apps with the bleeding edge of Javascript`,
+				description: `Blazing-fast secure Javascript apps built on the JAMStack using ReactJS, graphpQL and Typescript`,
 			},
 			{
-				title: `PWAs`,
-				description: `Convert your websites into instant apps and let your users access them like they do apps, even when offline`,
-			},
-			{
-				title: `Chatbots`,
-				description: `Let our intelligent little robots engage your customers saving you valuable time to focus on your business`,
+				title: `Take Security Very Seriously`,
+				description: `We do a thorough security vulnerability analysis against OWASP attack vectors`,
 			},
 		],
 		pricing: [
@@ -25,7 +21,7 @@ module.exports = {
 			},
 			{
 				type: `Pro`,
-				features: [`Basic plus:`, `Offline app`, `Chatbot`],
+				features: [`Basic plus:`, `Offline app`],
 				price: `10,000 KES`
 			},
 			{

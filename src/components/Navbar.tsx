@@ -44,7 +44,7 @@ const Navbar = () => {
                 className="inline-block py-2 px-4 text-white font-bold no-underline"
                 href="#"
               >
-                Active
+                Services
               </a>
             </li>
             <li className="mr-3">
@@ -52,7 +52,7 @@ const Navbar = () => {
                 className="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                 href="#"
               >
-                link
+                Contact Us
               </a>
             </li>
           </ul>

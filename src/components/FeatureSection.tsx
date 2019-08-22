@@ -1,8 +1,7 @@
 import React from 'react'
 
 import fastLoadingWebsite from '../images/fast-loading-website.svg'
-import instantAppWebsite from '../images/instant-app-website.svg'
-import chatbotsEngageUser from '../images/chatbots-engage-user.svg'
+import appWebsiteSecurity from '../images/app-website-security.svg'
 
 type Props = {
 	data: {
@@ -18,7 +17,7 @@ type Feature = {
 	img: string,
 }
 
-const img = [fastLoadingWebsite, instantAppWebsite, chatbotsEngageUser]
+const img = [fastLoadingWebsite, appWebsiteSecurity]
 
 const FeatureSection = ({ data  }: Props) => {
 	return (
