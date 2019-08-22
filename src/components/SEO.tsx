@@ -47,7 +47,6 @@ const SEO = ({
   const metaDescription = description || site.siteMetadata.description
 
   return (
-		
 		<Helmet
 			htmlAttributes={{
 				lang,
@@ -55,6 +54,10 @@ const SEO = ({
 			title={title}
 			titleTemplate={`%s | ${site.siteMetadata.title}`}
 			meta={[
+				{
+					name: `insight-app-sec-validation`,
+					content: `60dfc8f2-820f-43ed-918e-2da669c4b572`,
+				},
 				{
 					name: `description`,
 					content: metaDescription,
