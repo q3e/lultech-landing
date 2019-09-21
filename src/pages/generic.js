@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react"
 // import { Link } from 'gatsby'
 
-import Layout from '../components/layout';
-import Footer from '../components/Footer';
+import Layout from "../components/layout"
+import Footer from "../components/Footer"
 
-import pic4 from '../images/pic04.jpg';
-import Header from '../components/Header';
+import pic4 from "../images/pic04.jpg"
+import Header from "../components/Header"
 
 const SecondPage = () => (
   <Layout>
@@ -14,27 +14,22 @@ const SecondPage = () => (
     <div id="wrapper">
       <section id="main" className="wrapper">
         <div className="inner">
-          <h1 className="major">A Generic Page</h1>
+          <h1 className="major">About</h1>
           <span className="image fit">
             <img src={pic4} alt="" />
           </span>
           <p>
-            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-            mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor
-            sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet,
-            fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit.
-            Donec urna ex, lacinia in purus ac, pretium pulvinar mauris.
-            Curabitur sapien risus, commodo eget turpis at, elementum convallis
-            elit. Pellentesque enim turpis, hendrerit tristique.
+            At lultech, we provide companies with the ability to use use their
+            business data to derive meaningful insights from it. We do this by
+            working with AI experts to turn your old data into a treasure trove
+            of insight.
           </p>
           <p>
-            Interdum et malesuada fames ac ante ipsum primis in faucibus.
-            Pellentesque venenatis dolor imperdiet dolor mattis sagittis.
-            Praesent rutrum sem diam, vitae egestas enim auctor sit amet.
-            Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien
-            risus, commodo eget turpis at, elementum convallis elit.
-            Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+            We can plug into your existing data or build you new data collection
+            pipeline and tools. We gather what is important and together with
+            our AI partners, transform the data into meaningful insights,
+            carefully visualized and presented in a way that helps you make
+            confident business decisions.
           </p>
         </div>
       </section>
@@ -42,6 +37,6 @@ const SecondPage = () => (
 
     <Footer />
   </Layout>
-);
+)
 
-export default SecondPage;
+export default SecondPage

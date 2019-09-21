@@ -74,7 +74,7 @@ const IndexPage = () => (
               <ul className="actions">
                 <li>
                   <a
-                    href="https://github.com/SaidAbdullahi/"
+                    href="https://github.com/yunus89"
                     className="icon fa-github"
                     style={{ fontSize: "3rem" }}
                   ></a>
@@ -97,7 +97,7 @@ const IndexPage = () => (
               <ul className="actions">
                 <li>
                   <a
-                    href="https://github.com/yunus89"
+                    href="https://github.com/SaidAbdullahi/"
                     className="icon fa-github"
                     style={{ fontSize: "3rem" }}
                   ></a>
