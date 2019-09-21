@@ -36,6 +36,9 @@
   },
   "keywords": [
     "gatsby",
+    "gatsby-starter",
+    "gatsby-starter-hyperspace",
     "lultech"
-  ]
+  ],
+  "license": "MIT"
 }
